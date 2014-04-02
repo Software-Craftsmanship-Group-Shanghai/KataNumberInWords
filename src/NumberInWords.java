@@ -1,5 +1,9 @@
 public class NumberInWords {
-    public String words(int number) {
-        return "zero";
+    public String transferNumberToWord(int number) {
+        if(0==number){
+            return "zero";
+        }
+        return "one";
+
     }
 }
