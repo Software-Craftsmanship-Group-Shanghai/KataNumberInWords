@@ -13,6 +13,11 @@ public class TestNumberInWords {
         assertTransferCorrectly("ten", 10);
     }
 
+    @Test
+    public void numberInTwoWord(){
+        assertTransferCorrectly("twenty one", 21);
+    }
+
     private void assertTransferCorrectly(String expected, int number) {
         String actual = numberInWords.transferNumberToWord(number);
         Assert.assertEquals(expected, actual);
