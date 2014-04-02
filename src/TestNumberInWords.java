@@ -11,6 +11,7 @@ public class TestNumberInWords {
         assertTransferCorrectly("one", 1);
         assertTransferCorrectly("two", 2);
         assertTransferCorrectly("ten", 10);
+        assertTransferCorrectly("twenty", 20);
     }
 
     @Test

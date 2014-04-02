@@ -3,7 +3,9 @@ public class NumberInWords {
     public String transferNumberToWord(int number) {
         String[] words = new String[]{
                 "zero", "one", "two", "three", "four", "five",
-                "six", "seven", "eight", "nine", "ten"};
+                "six", "seven", "eight", "nine", "ten",
+                "eleven", "twelve", "thirteen", "fourteen", "fifteen",
+                "sixteen", "seventeen", "eighteen", "nineteen", "twenty"};
         if (number > 20) {
             return "twenty one";
         }
