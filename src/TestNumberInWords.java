@@ -10,6 +10,7 @@ public class TestNumberInWords {
         assertTransferCorrectly("zero", 0);
         assertTransferCorrectly("one", 1);
         assertTransferCorrectly("two", 2);
+        assertTransferCorrectly("ten", 10);
     }
 
     private void assertTransferCorrectly(String expected, int number) {
