@@ -12,11 +12,13 @@ public class TestNumberInWords {
         assertTransferCorrectly("two", 2);
         assertTransferCorrectly("ten", 10);
         assertTransferCorrectly("twenty", 20);
+        assertTransferCorrectly("thirty", 30);
     }
 
     @Test
     public void numberInTwoWord(){
         assertTransferCorrectly("twenty one", 21);
+        assertTransferCorrectly("twenty two", 22);
     }
 
     private void assertTransferCorrectly(String expected, int number) {
